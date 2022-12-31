@@ -1,0 +1,24 @@
+.SearchBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f2f2f2;
+  width: 40%;
+  font-size: 16px;
+  border-radius: 3px;
+  position: relative;
+  top: 16%;
+}
+.SearchBox .button {
+  padding: 4px 8px;
+}
+@media screen and (max-width: 992px) {
+  .SearchBox {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .SearchBox {
+    width: 90%;
+  }
+}

@@ -1,0 +1,15 @@
+.AddImage {
+  width: 38%;
+  position: relative;
+  top: 25%;
+}
+@media screen and (max-width: 992px) {
+  .AddImage {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .AddImage {
+    width: 90%;
+  }
+}

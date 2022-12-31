@@ -1,0 +1,12 @@
+.Link {
+  cursor: pointer;
+  font-size: 16px;
+  transition: font-size 300ms;
+  font-family: 'Inter', sans-serif;
+  white-space: nowrap;
+  color: #000;
+}
+.LinkHover:hover {
+  box-shadow: inset 100px 0 0 0 #54b3d6;
+  color: black;
+}

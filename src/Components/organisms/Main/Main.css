@@ -1,0 +1,52 @@
+.main-container {
+  margin: 3% 2% 3% 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.main-container .search-word {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+.main-container .search-word .word-description {
+  display: flex;
+  flex-direction: column;
+}
+.word-eng {
+  align-self: flex-start;
+  width: 40%;
+}
+.word-urdu {
+  align-self: flex-end;
+  width: 40%;
+  word-wrap: break-word;
+}
+.main-container .aside {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+}
+.main-container .aside .download-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-bottom: 30px;
+}
+.download-text {
+  width: 100%;
+  background-color: #2269e1;
+}
+.download-image {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+.other-words {
+  margin-top: 30px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

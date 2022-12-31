@@ -1,0 +1,19 @@
+.Box {
+  display: flex;
+  align-items: center;
+  position: relative;
+  transition: all 300ms;
+  box-sizing: border-box;
+}
+.center {
+  justify-content: center;
+}
+.between {
+  justify-content: space-between;
+}
+.around {
+  justify-content: space-around;
+}
+.evenly {
+  justify-content: space-evenly;
+}
