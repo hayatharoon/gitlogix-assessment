@@ -1,14 +1,10 @@
 import './App.css';
-import Navbar from './Components/molecules/Navbar/Navbar';
-import Main from './Components/organisms/Main/Main';
-import Welcome from './Components/organisms/Welcome/Welcome';
+import Home from './Components/pages/Home/Home';
 
 function App() {
   return (
     <div>
-      <Navbar />
-      <Welcome />
-      <Main />
+      <Home />
     </div>
   );
 }

@@ -1,0 +1,33 @@
+.SearchWord {
+  margin: 3% 15% 3% 10%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+}
+.title {
+  margin: 3% 15% 3% 10%;
+  display: flex;
+  justify-content: space-between;
+}
+.word {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: flex;
+  flex-direction: column;
+  padding: 5px 10px;
+  border-bottom: 3px solid #2269e1;
+}
+.align {
+  justify-self: flex-start;
+}
+@media screen and (max-width: 992px) {
+  .SearchWord {
+    gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 600px) {
+  .SearchWord {
+    gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

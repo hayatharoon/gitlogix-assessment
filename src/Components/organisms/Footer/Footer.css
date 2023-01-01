@@ -1,0 +1,26 @@
+.footer {
+  background-color: #2269e1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: 600;
+}
+.flex-item {
+  margin: 5% 0;
+}
+.social-icon {
+  display: flex;
+  justify-content: space-between;
+}
+.social-app {
+  display: flex;
+  justify-content: flex-start;
+}
+@media screen and (max-width: 600px) {
+  .footer {
+    flex-direction: column;
+  }
+  .flex-item {
+    margin: 8% 0;
+  }
+}

@@ -79,4 +79,35 @@ export const data = {
       'Welcome mat',
     ],
   },
+  MostSearchWords: [
+    {
+      eng: 'you’re welcome',
+      urdu: 'خوش آمدید',
+    },
+    {
+      eng: 'you’re welcome',
+      urdu: 'خوش آمدید',
+    },
+    {
+      eng: 'you’re welcome',
+      urdu: 'خوش آمدید',
+    },
+    {
+      eng: 'you’re welcome',
+      urdu: 'خوش آمدید',
+    },
+  ],
+
+  footer: {
+    img: siteLogo,
+    copyright: `©${new Date().getFullYear()} Copyright: Urduban`,
+    allRight: 'All Right Reserved',
+    socialLogos: ['facebook', 'instagram', 'youtube', 'twitter'],
+    navLinks: ['Home', 'Thesaurus', 'Dictionary', 'Antonyms', 'Most Common Word Of Day', 'Quiz'],
+    moreInfo: ['About Us', 'Privacy Policy', 'Contact Us'],
+    mobileDownloads: {
+      title: 'Download Our Mobile App',
+      app: ['apple', 'android'],
+    },
+  },
 };

@@ -1,12 +1,12 @@
 import React from 'react';
-import styles from './Link.module.css';
+import './Link.css';
 
 const Link = ({ children, textDecoration, color, to, size, opacity, shadow, border, ...props }) => {
   let linkDecoration = textDecoration ? textDecoration : 'none';
   return (
     <a
       href={to}
-      className={`${styles.Link}`}
+      className='Link'
       style={{
         textDecoration: linkDecoration,
         fontSize: `${size}rem`,

@@ -17,7 +17,7 @@ const Main = () => {
   const buttonText = data.aside.mail.buttonText;
   const wordsList = data.otherWords.words;
   return (
-    <div className='main-container'>
+    <main className='main-container'>
       <div className='search-word'>
         {word &&
           word.map((ele, i) => {
@@ -73,7 +73,7 @@ const Main = () => {
           </List>
         </div>
       </div>
-    </div>
+    </main>
   );
 };
 

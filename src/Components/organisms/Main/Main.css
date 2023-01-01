@@ -50,3 +50,27 @@
   margin-top: 30px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+
+@media screen and (max-width: 992px) {
+  .main-container {
+    margin: 3%;
+  }
+  .main-container .search-word {
+    width: 60%;
+  }
+  .main-container .aside {
+    width: 30%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .main-container {
+    margin: 10%;
+    flex-direction: column;
+  }
+  .main-container .search-word {
+    width: 100%;
+  }
+  .main-container .aside {
+    width: 100%;
+  }
+}
